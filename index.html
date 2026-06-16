@@ -1,24 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Sampath Kumar Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mergoju Sampath Kumar</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f4f4f4;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+padding:20px;
+}
+
+.container{
+display:flex;
+max-width:1000px;
+width:100%;
+background:white;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.left{
+width:40%;
+background:#fff;
+padding:40px;
+text-align:center;
+}
+
+.left img{
+width:180px;
+height:180px;
+object-fit:cover;
+border-radius:5px;
+}
+
+.left h1{
+margin-top:20px;
+font-size:32px;
+font-weight:bold;
+}
+
+.left p{
+margin-top:10px;
+color:#666;
+}
+
+.email{
+margin-top:25px;
+background:#222;
+color:white;
+padding:12px;
+display:inline-block;
+}
+
+.social{
+margin-top:20px;
+}
+
+.social a{
+text-decoration:none;
+font-size:22px;
+margin:0 10px;
+color:black;
+}
+
+.right{
+width:60%;
+background:#bdbdbd;
+padding:60px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+
+.about{
+font-size:18px;
+line-height:1.8;
+text-align:center;
+}
+
+.buttons{
+margin-top:40px;
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+.btn{
+background:#222;
+color:white;
+padding:12px 30px;
+text-decoration:none;
+}
+
+@media(max-width:768px){
+.container{
+flex-direction:column;
+}
+
+.left,.right{
+width:100%;
+}
+}
+</style>
 </head>
+
 <body>
-<h1>MERGOJU SAMPATH KUMAR</h1>
-<h2>PCS7 / DCS Engineer</h2>
 
-<p>Welcome to my portfolio website.</p>
+<div class="container">
 
-<h3>Skills</h3>
-<ul>
-<li>Siemens PCS7</li>
-<li>DCS Programming</li>
-<li>SCADA</li>
-<li>Process Automation</li>
-</ul>
+<div class="left">
+<img src="YOUR_PHOTO_LINK_HERE" alt="Profile Photo">
 
-<h3>Contact</h3>
-<p>Email: yourmail@example.com</p>
+<h1>MERGOJU<br>SAMPATHKUMAR</h1>
+
+<p>PCS7 / DCS Engineer</p>
+
+<div class="email">
+sampath.mergoju@gmail.com
+</div>
+
+<div class="social">
+<a href="#">📷</a>
+<a href="#">🐦</a>
+<a href="#">📘</a>
+<a href="#">💼</a>
+</div>
+
+</div>
+
+<div class="right">
+
+<div class="about">
+I am a PCS7 / DCS Engineer with a strong interest in industrial automation and process control systems. I am committed to continuous learning and professional growth. I enjoy solving technical challenges, working with automation technologies, and contributing to efficient and reliable plant operations.
+</div>
+
+<div class="buttons">
+<a href="#" class="btn">Resume</a>
+<a href="#" class="btn">Portfolio</a>
+</div>
+
+</div>
+
+</div>
 
 </body>
 </html>
