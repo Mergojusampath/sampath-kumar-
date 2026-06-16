@@ -1,10 +1,22 @@
-Mergoju Sampath Kumar
-Experience: 2 years PCS7 Engineer
-Skills: PCS7, WinCC, SCADA, PLC, CFC, SFC
-Projects:
-- Boiler Automation
-- Water Treatment Plant
-- SCADA Monitoring System
+MERGOJU SAMPATHKUMAR
+  https://ctomg85zp8ztlg7.my.canva.site/mergoju-sampathkumar
+- generic [ref=e1] clickable [onclick]
+  - generic [ref=e2] clickable [onclick]
+    - main
+      - generic
+        - generic
+          - generic
+            - generic
+            - generic
+              - generic
+                - image
+              - link [ref=e6]
+            - generi
 
-Email: sampath.mergoju@gmail.com
-LinkedIn: https://www.linkedin.com/in/mergoju-sampathkumar-58ba64277/
+...
+
+ned with Canva" [ref=e5]
+              - image
+              - StaticText "Designed with"
+              - image
+- generic
