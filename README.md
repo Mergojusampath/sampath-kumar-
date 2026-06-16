@@ -7,4 +7,4 @@ Projects:
 - SCADA Monitoring System
 
 Email: sampath.mergoju@gmail.com
-LinkedIn: 
+LinkedIn: https://www.linkedin.com/in/mergoju-sampathkumar-58ba64277/
