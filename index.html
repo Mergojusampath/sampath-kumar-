@@ -136,14 +136,23 @@ margin-bottom:40px;
 color:#00e5ff;
 }
 
+/* Video Section Styling */
+.video-container {
+max-width: 850px;
+margin: auto;
+background: #111827;
+padding: 20px;
+border-radius: 20px;
+box-shadow: 0 0 25px rgba(0,255,255,.15);
+border: 2px solid #00e5ff;
+}
+
 .video-wrapper {
 position: relative;
 padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
 height: 0;
 overflow: hidden;
-border-radius: 15px;
-box-shadow: 0 0 25px rgba(0,255,255,.15);
-border: 2px solid #00e5ff;
+border-radius: 12px;
 }
 
 .video-wrapper iframe {
@@ -239,8 +248,8 @@ width:100%;
 
 <div class="profile">
 
-<!-- Updated with your new image file -->
-<img src="File_000000004bb8720bb9759b6d05352b2d.png" alt="Profile">
+<!-- 1. Your updated Profile Image -->
+<img src="File_000000004bb8720bb9759b6d05352b2d.png" alt="Mergoju Sampath Kumar">
 
 <h1>MERGOJU<br>SAMPATH KUMAR</h1>
 
@@ -280,6 +289,7 @@ Projects
 
 <div class="about">
 
+<!-- Main Section Plant Banner -->
 <img src="file_0000000072fc720ba9764a873b3797ec.png" alt="Industrial Plant Banner">
 
 <p>
@@ -294,11 +304,13 @@ I am committed to continuous learning, solving technical challenges and deliveri
 
 </header>
 
-<!-- Inline Video Section -->
-<section id="portfolio-video">
+<!-- 2. Direct Embedded Video Player Section (No Buttons Needed) -->
+<section id="project-video">
 <h2 class="title">Project Video Demonstration</h2>
+<div class="video-container">
 <div class="video-wrapper">
-<iframe src="https://drive.google.com/file/d/1bV1rvaJHYTZ6Ft9l32zScVsCccpz8WBh/preview" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1bV1rvaJHYTZ6Ft9l32zScVsCccpz8WBh/preview" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 </div>
 </section>
 
@@ -371,7 +383,8 @@ Industrial Networking and Process Automation.
 
 <div class="project">
 
-<img src="1000559716.png" alt="PCS7 Process Control System Control Room">
+<!-- 3. Fixed Duplication: Replaced with your high-quality Siemens Control Room Image -->
+<img src="1000559716.png" alt="Siemens PCS7 Control Room View">
 
 <h3>PCS7 Process Control System</h3>
 
