@@ -91,19 +91,33 @@ margin-top:25px;
 display:flex;
 justify-content:center;
 gap:10px;
+flex-wrap:wrap;
 }
 
 .btn{
-padding:12px 20px;
+padding:12px 18px;
 background:#00bcd4;
 color:white;
 text-decoration:none;
 border-radius:8px;
 font-weight:bold;
+font-size:14px;
+transition:.3s;
+display:inline-flex;
+align-items:center;
+gap:6px;
 }
 
 .btn:hover{
 background:#0097a7;
+}
+
+.btn.video-btn {
+background:#ff5722;
+}
+
+.btn.video-btn:hover {
+background:#e64a19;
 }
 
 .about{
@@ -218,7 +232,7 @@ width:100%;
 
 <div class="profile">
 
-<img src="file_00000000af3c720cb4f91dc9511d0025.png">
+<img src="file_00000000af3c720cb4f91dc9511d0025.png" alt="Profile Image">
 
 <h1>MERGOJU<br>SAMPATH KUMAR</h1>
 
@@ -245,7 +259,13 @@ sampath.mergoju@gmail.com
 <a href="https://drive.google.com/file/d/1H4mAljilUXA13BPKflKY9lkzsuARIkiK/preview"
 target="_blank"
 class="btn">
-Resume
+<i class="fas fa-file-alt"></i> Resume
+</a>
+
+<a href="https://drive.google.com/file/d/1bV1rvaJHYTZ6Ft9l32zScVsCccpz8WBh/preview" 
+target="_blank" 
+class="btn video-btn">
+<i class="fas fa-play"></i> Video
 </a>
 
 <a href="#projects" class="btn">
@@ -258,7 +278,7 @@ Projects
 
 <div class="about">
 
-<img src="file_0000000072fc720ba9764a873b3797ec.png">
+<img src="file_0000000072fc720ba9764a873b3797ec.png" alt="About Image">
 
 <p>
 I am a PCS7 / DCS Engineer with strong interest in Industrial Automation and Process Control Systems.
@@ -333,7 +353,7 @@ Industrial Networking and Process Automation.
 
 <div class="project">
 
-<img src="file_00000000a9dc71fa91c3f2f31d2a617c.png">
+<img src="file_00000000a9dc71fa91c3f2f31d2a617c.png" alt="Project 1">
 
 <h3>Industrial SCADA Monitoring System</h3>
 
@@ -341,7 +361,7 @@ Industrial Networking and Process Automation.
 
 <div class="project">
 
-<img src="file_0000000072fc720ba9764a873b3797ec.png">
+<img src="file_0000000072fc720ba9764a873b3797ec.png" alt="Project 2">
 
 <h3>PCS7 Process Control System</h3>
 
