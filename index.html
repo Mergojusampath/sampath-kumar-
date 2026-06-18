@@ -95,29 +95,17 @@ flex-wrap:wrap;
 }
 
 .btn{
-padding:12px 18px;
+padding:12px 20px;
 background:#00bcd4;
 color:white;
 text-decoration:none;
 border-radius:8px;
 font-weight:bold;
-font-size:14px;
 transition:.3s;
-display:inline-flex;
-align-items:center;
-gap:6px;
 }
 
 .btn:hover{
 background:#0097a7;
-}
-
-.btn.video-btn {
-background:#ff5722;
-}
-
-.btn.video-btn:hover {
-background:#e64a19;
 }
 
 .about{
@@ -146,6 +134,25 @@ text-align:center;
 font-size:35px;
 margin-bottom:40px;
 color:#00e5ff;
+}
+
+.video-wrapper {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+height: 0;
+overflow: hidden;
+border-radius: 15px;
+box-shadow: 0 0 25px rgba(0,255,255,.15);
+border: 2px solid #00e5ff;
+}
+
+.video-wrapper iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: 0;
 }
 
 .skills{
@@ -232,7 +239,8 @@ width:100%;
 
 <div class="profile">
 
-<img src="file_00000000af3c720cb4f91dc9511d0025.png" alt="Profile Image">
+<!-- Updated with your new image file -->
+<img src="File_000000004bb8720bb9759b6d05352b2d.png" alt="Profile">
 
 <h1>MERGOJU<br>SAMPATH KUMAR</h1>
 
@@ -259,13 +267,7 @@ sampath.mergoju@gmail.com
 <a href="https://drive.google.com/file/d/1H4mAljilUXA13BPKflKY9lkzsuARIkiK/preview"
 target="_blank"
 class="btn">
-<i class="fas fa-file-alt"></i> Resume
-</a>
-
-<a href="https://drive.google.com/file/d/1bV1rvaJHYTZ6Ft9l32zScVsCccpz8WBh/preview" 
-target="_blank" 
-class="btn video-btn">
-<i class="fas fa-play"></i> Video
+Resume
 </a>
 
 <a href="#projects" class="btn">
@@ -278,7 +280,7 @@ Projects
 
 <div class="about">
 
-<img src="file_0000000072fc720ba9764a873b3797ec.png" alt="About Image">
+<img src="file_0000000072fc720ba9764a873b3797ec.png" alt="Industrial Plant Banner">
 
 <p>
 I am a PCS7 / DCS Engineer with strong interest in Industrial Automation and Process Control Systems.
@@ -291,6 +293,14 @@ I am committed to continuous learning, solving technical challenges and deliveri
 </div>
 
 </header>
+
+<!-- Inline Video Section -->
+<section id="portfolio-video">
+<h2 class="title">Project Video Demonstration</h2>
+<div class="video-wrapper">
+<iframe src="https://drive.google.com/file/d/1bV1rvaJHYTZ6Ft9l32zScVsCccpz8WBh/preview" allow="autoplay"></iframe>
+</div>
+</section>
 
 <section>
 
@@ -353,7 +363,7 @@ Industrial Networking and Process Automation.
 
 <div class="project">
 
-<img src="file_00000000a9dc71fa91c3f2f31d2a617c.png" alt="Project 1">
+<img src="file_00000000a9dc71fa91c3f2f31d2a617c.png" alt="SCADA Monitoring">
 
 <h3>Industrial SCADA Monitoring System</h3>
 
@@ -361,7 +371,7 @@ Industrial Networking and Process Automation.
 
 <div class="project">
 
-<img src="file_0000000072fc720ba9764a873b3797ec.png" alt="Project 2">
+<img src="1000559716.png" alt="PCS7 Process Control System Control Room">
 
 <h3>PCS7 Process Control System</h3>
 
