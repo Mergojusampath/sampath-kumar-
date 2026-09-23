@@ -3,108 +3,390 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Mergoju Sampathkumar | DCS Automation Engineer</title>
+
 <meta name="description" content="Portfolio of Mergoju Sampathkumar - PCS 7, DCS, PLC, SCADA and Industrial Automation Engineer.">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 <style>
+
 :root{
- --bg:#06111c;--bg2:#0a1d2c;--card:#0c2233;--line:#1d4057;
- --text:#effaff;--muted:#a4b8c7;--cyan:#20d9ff;--green:#42e8b1;
+ --bg:#06111c;
+ --bg2:#0a1d2c;
+ --card:#0c2233;
+ --line:#1d4057;
+ --text:#effaff;
+ --muted:#a4b8c7;
+ --cyan:#20d9ff;
+ --green:#42e8b1;
  --max:1150px;
 }
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
-a{text-decoration:none;color:inherit}
-.container{width:min(var(--max),92%);margin:auto}
+
+*{
+ box-sizing:border-box;
+ margin:0;
+ padding:0;
+}
+
+html{
+ scroll-behavior:smooth;
+}
+
+body{
+ font-family:Segoe UI,Arial,sans-serif;
+ background:var(--bg);
+ color:var(--text);
+ line-height:1.6;
+}
+
+a{
+ text-decoration:none;
+ color:inherit;
+}
+
+.container{
+ width:min(var(--max),92%);
+ margin:auto;
+}
+
+/* HEADER */
 
 header{
- position:fixed;top:0;left:0;right:0;z-index:50;
- background:rgba(6,17,28,.9);backdrop-filter:blur(14px);
- border-bottom:1px solid #173348
+ position:fixed;
+ top:0;
+ left:0;
+ right:0;
+ z-index:50;
+ background:rgba(6,17,28,.9);
+ backdrop-filter:blur(14px);
+ border-bottom:1px solid #173348;
 }
-.nav{height:70px;display:flex;align-items:center;justify-content:space-between}
-.logo{font-weight:800;letter-spacing:.7px}
-.logo span{color:var(--cyan)}
-nav{display:flex;gap:25px}
-nav a{font-size:14px;color:var(--muted)}
-nav a:hover{color:var(--cyan)}
-.menu{display:none;background:none;border:0;color:#fff;font-size:27px}
+
+.nav{
+ height:70px;
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+}
+
+.logo{
+ font-weight:800;
+ letter-spacing:.7px;
+}
+
+.logo span{
+ color:var(--cyan);
+}
+
+nav{
+ display:flex;
+ gap:25px;
+}
+
+nav a{
+ font-size:14px;
+ color:var(--muted);
+}
+
+nav a:hover{
+ color:var(--cyan);
+}
+
+.menu{
+ display:none;
+ background:none;
+ border:0;
+ color:#fff;
+ font-size:27px;
+}
+
+/* HERO */
 
 .hero{
- min-height:100vh;padding:120px 0 70px;display:flex;align-items:center;
- background:radial-gradient(circle at 80% 25%,rgba(32,217,255,.16),transparent 30%),
- linear-gradient(135deg,#06111c,#092033 55%,#06111c)
+ min-height:100vh;
+ padding:120px 0 70px;
+ display:flex;
+ align-items:center;
+ background:
+ radial-gradient(circle at 80% 25%,rgba(32,217,255,.16),transparent 30%),
+ linear-gradient(135deg,#06111c,#092033 55%,#06111c);
 }
-.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:55px;align-items:center}
-.badge{
- display:inline-block;border:1px solid #23617a;background:#082235;color:var(--cyan);
- padding:7px 12px;border-radius:30px;font-size:11px;font-weight:800;letter-spacing:1.5px
-}
-h1{font-size:clamp(40px,6vw,70px);line-height:1.03;letter-spacing:-2px;margin:18px 0}
-h1 span{color:var(--cyan)}
-.hero p{max-width:680px;color:var(--muted);font-size:17px}
 
-.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
-.btn{padding:12px 18px;border-radius:9px;border:1px solid var(--line);font-weight:700;font-size:14px}
-.primary{background:var(--cyan);color:#04131c;border-color:var(--cyan)}
-.secondary{background:#0b2131}
-.icon-btn{display:inline-flex;align-items:center;gap:8px}
-.icon-btn i{font-size:15px}
+.hero-grid{
+ display:grid;
+ grid-template-columns:1.05fr .95fr;
+ gap:55px;
+ align-items:center;
+}
+
+.badge{
+ display:inline-block;
+ border:1px solid #23617a;
+ background:#082235;
+ color:var(--cyan);
+ padding:7px 12px;
+ border-radius:30px;
+ font-size:11px;
+ font-weight:800;
+ letter-spacing:1.5px;
+}
+
+h1{
+ font-size:clamp(40px,6vw,70px);
+ line-height:1.03;
+ letter-spacing:-2px;
+ margin:18px 0;
+}
+
+h1 span{
+ color:var(--cyan);
+}
+
+.hero p{
+ max-width:680px;
+ color:var(--muted);
+ font-size:17px;
+}
+
+.actions{
+ display:flex;
+ gap:12px;
+ flex-wrap:wrap;
+ margin-top:28px;
+}
+
+.btn{
+ padding:12px 18px;
+ border-radius:9px;
+ border:1px solid var(--line);
+ font-weight:700;
+ font-size:14px;
+}
+
+.primary{
+ background:var(--cyan);
+ color:#04131c;
+ border-color:var(--cyan);
+}
+
+.secondary{
+ background:#0b2131;
+}
+
+.icon-btn{
+ display:inline-flex;
+ align-items:center;
+ gap:8px;
+}
+
+.icon-btn i{
+ font-size:15px;
+}
+
+/* PROFILE */
 
 .media-card{
  background:linear-gradient(145deg,#0d2639,#081723);
- border:1px solid var(--line);border-radius:20px;padding:16px
+ border:1px solid var(--line);
+ border-radius:20px;
+ padding:16px;
 }
-.profile-slot{
- height:340px;border-radius:14px;overflow:hidden;background:#0a1b29;
- border:1px solid #1c465e;position:relative
-}
-.profile-slot img{width:100%;height:100%;object-fit:cover}
-.placeholder{
- height:100%;display:grid;place-items:center;text-align:center;
- color:var(--muted);padding:30px
-}
-.placeholder strong{display:block;color:var(--cyan);font-size:20px;margin-bottom:7px}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
-.stat{background:#091b2a;border:1px solid #18384d;border-radius:11px;padding:10px;text-align:center}
-.stat b{display:block;color:var(--cyan);font-size:18px}
-.stat small{color:var(--muted);font-size:10px}
 
-section{padding:92px 0}
-.kicker{color:var(--cyan);font-size:11px;text-transform:uppercase;letter-spacing:2px;font-weight:800}
-h2{font-size:36px;line-height:1.15;margin:6px 0 10px}
-.lead{color:var(--muted);max-width:760px}
-.section-title{margin-bottom:35px}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.profile-slot{
+ height:340px;
+ border-radius:14px;
+ overflow:hidden;
+ background:#0a1b29;
+ border:1px solid #1c465e;
+ position:relative;
+}
+
+.profile-slot img{
+ width:100%;
+ height:100%;
+ object-fit:cover;
+}
+
+.placeholder{
+ height:100%;
+ display:grid;
+ place-items:center;
+ text-align:center;
+ color:var(--muted);
+ padding:30px;
+}
+
+.placeholder strong{
+ display:block;
+ color:var(--cyan);
+ font-size:20px;
+ margin-bottom:7px;
+}
+
+.stats{
+ display:grid;
+ grid-template-columns:repeat(3,1fr);
+ gap:8px;
+ margin-top:10px;
+}
+
+.stat{
+ background:#091b2a;
+ border:1px solid #18384d;
+ border-radius:11px;
+ padding:10px;
+ text-align:center;
+}
+
+.stat b{
+ display:block;
+ color:var(--cyan);
+ font-size:18px;
+}
+
+.stat small{
+ color:var(--muted);
+ font-size:10px;
+}
+
+/* COMMON SECTIONS */
+
+section{
+ padding:92px 0;
+}
+
+.kicker{
+ color:var(--cyan);
+ font-size:11px;
+ text-transform:uppercase;
+ letter-spacing:2px;
+ font-weight:800;
+}
+
+h2{
+ font-size:36px;
+ line-height:1.15;
+ margin:6px 0 10px;
+}
+
+.lead{
+ color:var(--muted);
+ max-width:760px;
+}
+
+.section-title{
+ margin-bottom:35px;
+}
+
+.grid2{
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ gap:20px;
+}
+
+/* CARDS */
 
 .card{
  background:linear-gradient(145deg,#0b2030,#081823);
- border:1px solid var(--line);border-radius:16px;padding:23px
+ border:1px solid var(--line);
+ border-radius:16px;
+ padding:23px;
 }
-.card h3{margin-bottom:9px}
-.card p,.card li{font-size:14px;color:var(--muted)}
-.card ul{padding-left:19px}
-.tag{color:var(--green);font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1px}
 
-.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.skill{padding:17px;border:1px solid var(--line);border-radius:13px;background:#091b2a}
-.skill b{display:block;margin-bottom:5px}
-.skill span{color:var(--muted);font-size:12px}
+.card h3{
+ margin-bottom:9px;
+}
 
-.timeline{display:grid;gap:14px}
+.card p,
+.card li{
+ font-size:14px;
+ color:var(--muted);
+}
+
+.card ul{
+ padding-left:19px;
+}
+
+.tag{
+ color:var(--green);
+ font-size:11px;
+ font-weight:800;
+ text-transform:uppercase;
+ letter-spacing:1px;
+}
+
+/* SKILLS */
+
+.skills{
+ display:grid;
+ grid-template-columns:repeat(3,1fr);
+ gap:14px;
+}
+
+.skill{
+ padding:17px;
+ border:1px solid var(--line);
+ border-radius:13px;
+ background:#091b2a;
+}
+
+.skill b{
+ display:block;
+ margin-bottom:5px;
+}
+
+.skill span{
+ color:var(--muted);
+ font-size:12px;
+}
+
+/* EXPERIENCE */
+
+.timeline{
+ display:grid;
+ gap:14px;
+}
+
 .job{
- border-left:3px solid var(--cyan);padding:18px 20px;background:#091b2a;
- border-radius:0 13px 13px 0;border-top:1px solid var(--line);
- border-right:1px solid var(--line);border-bottom:1px solid var(--line)
+ border-left:3px solid var(--cyan);
+ padding:18px 20px;
+ background:#091b2a;
+ border-radius:0 13px 13px 0;
+ border-top:1px solid var(--line);
+ border-right:1px solid var(--line);
+ border-bottom:1px solid var(--line);
 }
-.job .date{color:var(--cyan);font-size:12px;font-weight:700}
-.job h3{margin:3px 0}
-.job p{color:var(--muted);font-size:13px}
 
-.projects{display:grid;grid-template-columns:1fr 1fr;gap:17px}
-.project h3{margin:7px 0}
+.job .date{
+ color:var(--cyan);
+ font-size:12px;
+ font-weight:700;
+}
+
+.job h3{
+ margin:3px 0;
+}
+
+.job p{
+ color:var(--muted);
+ font-size:13px;
+}
+
+/* PROJECTS */
+
+.projects{
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ gap:17px;
+}
+
+.project h3{
+ margin:7px 0;
+}
+
 .project h4.project-heading{
  margin-top:22px;
  margin-bottom:9px;
@@ -128,76 +410,240 @@ h2{font-size:36px;line-height:1.15;margin:6px 0 10px}
  margin-top:20px;
 }
 
-.tools{display:flex;gap:6px;flex-wrap:wrap;margin-top:14px}
+.tools{
+ display:flex;
+ gap:6px;
+ flex-wrap:wrap;
+ margin-top:14px;
+}
+
 .tools span{
- font-size:10px;padding:5px 8px;border-radius:20px;background:#102c3f;
- border:1px solid #1a4a63;color:#c5f2ff
+ font-size:10px;
+ padding:5px 8px;
+ border-radius:20px;
+ background:#102c3f;
+ border:1px solid #1a4a63;
+ color:#c5f2ff;
 }
 
-.video{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#081824}
-.video video{display:block;width:100%;max-height:500px;background:#000}
-.video-note{padding:12px;color:var(--muted);font-size:12px}
+/* VIDEO */
 
-.edu{width:100%;border-collapse:collapse}
-.edu th,.edu td{border:1px solid #24475b;padding:10px;text-align:left;font-size:12px}
-.edu th{background:#0e2b40;color:#bdeeff}
-.edu td{color:var(--muted)}
+.video{
+ border:1px solid var(--line);
+ border-radius:16px;
+ overflow:hidden;
+ background:#081824;
+ box-shadow:0 15px 40px rgba(0,0,0,.25);
+}
 
-.contact{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.contact-item{padding:15px 0;border-bottom:1px solid var(--line)}
+.video video{
+ display:block;
+ width:100%;
+ max-height:550px;
+ background:#000;
+}
+
+.video-note{
+ padding:12px;
+ color:var(--muted);
+ font-size:12px;
+}
+
+.video-title{
+ display:flex;
+ align-items:center;
+ gap:10px;
+}
+
+.video-title i{
+ color:var(--cyan);
+}
+
+/* EDUCATION */
+
+.edu{
+ width:100%;
+ border-collapse:collapse;
+}
+
+.edu th,
+.edu td{
+ border:1px solid #24475b;
+ padding:10px;
+ text-align:left;
+ font-size:12px;
+}
+
+.edu th{
+ background:#0e2b40;
+ color:#bdeeff;
+}
+
+.edu td{
+ color:var(--muted);
+}
+
+/* CONTACT */
+
+.contact{
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ gap:20px;
+}
+
+.contact-item{
+ padding:15px 0;
+ border-bottom:1px solid var(--line);
+}
+
 .contact-item small{
- display:block;color:var(--muted);font-size:10px;
- text-transform:uppercase;letter-spacing:1px
+ display:block;
+ color:var(--muted);
+ font-size:10px;
+ text-transform:uppercase;
+ letter-spacing:1px;
 }
-.contact-item a{color:var(--cyan);font-weight:700}
+
+.contact-item a{
+ color:var(--cyan);
+ font-weight:700;
+}
+
+.contact-icon{
+ width:24px;
+ color:var(--cyan);
+ display:inline-block;
+}
+
+/* SOCIAL */
+
+.social-row{
+ display:flex;
+ gap:10px;
+ margin-top:15px;
+ flex-wrap:wrap;
+}
+
+.social-icon{
+ display:inline-flex;
+ align-items:center;
+ justify-content:center;
+ width:40px;
+ height:40px;
+ border:1px solid var(--line);
+ border-radius:10px;
+ background:#0b2131;
+ color:var(--cyan);
+ font-size:17px;
+ transition:.2s;
+}
+
+.social-icon:hover{
+ transform:translateY(-2px);
+ background:#10344a;
+}
+
+/* FOOTER */
 
 footer{
- padding:28px 0;border-top:1px solid var(--line);
- color:var(--muted);font-size:12px
+ padding:28px 0;
+ border-top:1px solid var(--line);
+ color:var(--muted);
+ font-size:12px;
 }
-.footer{display:flex;justify-content:space-between}
 
-.social-row{display:flex;gap:10px;margin-top:15px;flex-wrap:wrap}
-.social-icon{
- display:inline-flex;align-items:center;justify-content:center;
- width:40px;height:40px;border:1px solid var(--line);
- border-radius:10px;background:#0b2131;color:var(--cyan);
- font-size:17px;transition:.2s
+.footer{
+ display:flex;
+ justify-content:space-between;
 }
-.social-icon:hover{transform:translateY(-2px);background:#10344a}
-.contact-icon{width:24px;color:var(--cyan);display:inline-block}
-.video-title{display:flex;align-items:center;gap:10px}
-.video-title i{color:var(--cyan)}
+
+/* MOBILE */
 
 @media(max-width:800px){
+
  nav{
-  display:none;position:absolute;top:70px;left:0;right:0;background:#071724;
-  padding:18px 4%;flex-direction:column;border-bottom:1px solid var(--line)
+  display:none;
+  position:absolute;
+  top:70px;
+  left:0;
+  right:0;
+  background:#071724;
+  padding:18px 4%;
+  flex-direction:column;
+  border-bottom:1px solid var(--line);
  }
- nav.show{display:flex}
- .menu{display:block}
- .hero-grid,.grid2,.contact{grid-template-columns:1fr}
- .skills{grid-template-columns:1fr 1fr}
- .projects{grid-template-columns:1fr}
+
+ nav.show{
+  display:flex;
+ }
+
+ .menu{
+  display:block;
+ }
+
+ .hero-grid,
+ .grid2,
+ .contact{
+  grid-template-columns:1fr;
+ }
+
+ .skills{
+  grid-template-columns:1fr 1fr;
+ }
+
+ .projects{
+  grid-template-columns:1fr;
+ }
+
 }
+
 @media(max-width:480px){
- .skills{grid-template-columns:1fr}
- .stats{grid-template-columns:1fr}
- .footer{flex-direction:column;gap:8px}
- h2{font-size:30px}
+
+ .skills{
+  grid-template-columns:1fr;
+ }
+
+ .stats{
+  grid-template-columns:1fr;
+ }
+
+ .footer{
+  flex-direction:column;
+  gap:8px;
+ }
+
+ h2{
+  font-size:30px;
+ }
+
+ .video video{
+  max-height:300px;
+ }
+
 }
+
 </style>
 </head>
 
 <body>
 
-<header>
-<div class="container nav">
-<a class="logo" href="#home">SAMPATH<span>.DCS</span></a>
+<!-- HEADER -->
 
-<button class="menu" onclick="document.querySelector('nav').classList.toggle('show')">☰</button>
+<header>
+
+<div class="container nav">
+
+<a class="logo" href="#home">
+SAMPATH<span>.DCS</span>
+</a>
+
+<button class="menu"
+onclick="document.querySelector('nav').classList.toggle('show')">
+☰
+</button>
 
 <nav>
+
 <a href="#about">About</a>
 <a href="#experience">Experience</a>
 <a href="#skills">Skills</a>
@@ -206,13 +652,18 @@ footer{
 <a href="#training">Training</a>
 <a href="#video">Video</a>
 <a href="#contact">Contact</a>
+
 </nav>
+
 </div>
+
 </header>
 
 
 <!-- HERO -->
+
 <section class="hero" id="home">
+
 <div class="container hero-grid">
 
 <div>
@@ -236,24 +687,34 @@ communication, commissioning and plant troubleshooting.
 <div class="actions">
 
 <a class="btn primary icon-btn" href="#projects">
-<i class="fa-solid fa-folder-open"></i> View Projects
+<i class="fa-solid fa-folder-open"></i>
+View Projects
 </a>
 
-<a class="btn secondary icon-btn" href="resume.pdf" download>
-<i class="fa-solid fa-file-arrow-down"></i> Resume
+<a class="btn secondary icon-btn"
+href="resume.pdf"
+download>
+<i class="fa-solid fa-file-arrow-down"></i>
+Resume
 </a>
 
-<a class="btn secondary icon-btn" href="tel:+918985089064">
-<i class="fa-solid fa-phone"></i> Call Me
+<a class="btn secondary icon-btn"
+href="tel:+918985089064">
+<i class="fa-solid fa-phone"></i>
+Call Me
 </a>
 
-<a class="btn secondary icon-btn" href="#video">
-<i class="fa-solid fa-circle-play"></i> Video
+<a class="btn secondary icon-btn"
+href="#video">
+<i class="fa-solid fa-circle-play"></i>
+Video
 </a>
 
 </div>
 
-<!-- Social icons: duplicate CALL icon removed -->
+
+<!-- SOCIAL ICONS -->
+
 <div class="social-row">
 
 <a class="social-icon"
@@ -261,21 +722,29 @@ href="https://www.linkedin.com/in/mergoju-sampathkumar-58ba64277/"
 target="_blank"
 aria-label="LinkedIn"
 title="LinkedIn">
+
 <i class="fa-brands fa-linkedin-in"></i>
+
 </a>
+
 
 <a class="social-icon"
 href="#video"
 aria-label="Video"
 title="Video">
+
 <i class="fa-solid fa-video"></i>
+
 </a>
+
 
 <a class="social-icon"
 href="mailto:sampath.mergoju@gmail.com"
 aria-label="Email"
 title="Email">
+
 <i class="fa-solid fa-envelope"></i>
+
 </a>
 
 </div>
@@ -283,23 +752,30 @@ title="Email">
 </div>
 
 
+<!-- PROFILE -->
+
 <div class="media-card">
 
 <div class="profile-slot">
 
-<!-- Keep Profile Photo.jpg beside index.html -->
 <img src="Profile Photo.jpg"
 alt="Mergoju Sampathkumar"
 onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
 
 <div class="placeholder" style="display:none">
+
 <div>
+
 <strong>YOUR PHOTO</strong>
+
 Add Profile Photo.jpg beside index.html
-</div>
+
 </div>
 
 </div>
+
+</div>
+
 
 <div class="stats">
 
@@ -321,102 +797,182 @@ Add Profile Photo.jpg beside index.html
 </div>
 
 </div>
+
 </div>
+
 </section>
 
 
 <!-- ABOUT -->
+
 <section id="about">
+
 <div class="container">
 
 <div class="section-title">
-<div class="kicker">Profile</div>
-<h2>About Me</h2>
-<p class="lead">
-A focused profile for DCS automation, PCS 7 software, PLC and industrial
-automation opportunities.
-</p>
+
+<div class="kicker">
+Profile
 </div>
+
+<h2>
+About Me
+</h2>
+
+<p class="lead">
+A focused profile for DCS automation, PCS 7 software, PLC and
+industrial automation opportunities.
+</p>
+
+</div>
+
 
 <div class="grid2">
 
 <div class="card">
-<h3>Career Objective</h3>
+
+<h3>
+Career Objective
+</h3>
+
 <p>
 To build a successful career as a DCS / PCS 7 Automation Engineer,
 utilizing hands-on experience in Siemens PCS 7, DCS logic development,
 CFC/SFC, SCADA/OS development, ES/OS server and client configuration,
 PLC programming, industrial communication, commissioning and plant
-troubleshooting, while continuously developing technical and engineering skills.
+troubleshooting, while continuously developing technical and
+engineering skills.
 </p>
+
 </div>
 
+
 <div class="card">
-<h3>Core Focus</h3>
+
+<h3>
+Core Focus
+</h3>
+
 <ul>
+
 <li>Process control and DCS programming</li>
 <li>Siemens PCS 7 software engineering</li>
 <li>PLC / HMI / SCADA automation</li>
 <li>Industrial communication</li>
 <li>Testing, commissioning and troubleshooting</li>
+
 </ul>
+
 </div>
 
 </div>
+
 </div>
+
 </section>
 
 
 <!-- EXPERIENCE -->
+
 <section id="experience">
+
 <div class="container">
 
 <div class="section-title">
-<div class="kicker">Professional Experience</div>
-<h2>Experience</h2>
+
+<div class="kicker">
+Professional Experience
 </div>
+
+<h2>
+Experience
+</h2>
+
+</div>
+
 
 <div class="timeline">
 
+
 <div class="job">
-<div class="date">SEP 2025 – PRESENT</div>
-<h3>Associate DCS Automation Engineer</h3>
-<p><b>Utthunga Engineering Transformation — Bengaluru</b></p>
+
+<div class="date">
+SEP 2025 – PRESENT
+</div>
+
+<h3>
+Associate DCS Automation Engineer
+</h3>
+
+<p>
+<b>
+Utthunga Engineering Transformation — Bengaluru
+</b>
+</p>
+
 <p>
 DCS automation logic development, CFC/SFC, SCADA/OS development,
 ES/OS server and client configuration, testing, commissioning support
 and troubleshooting.
 </p>
+
 </div>
 
+
 <div class="job">
-<div class="date">AUG 2024 – AUG 2025</div>
-<h3>PLC Automation Engineer</h3>
-<p><b>Techsys Automation Pvt. Ltd. — Hyderabad</b></p>
+
+<div class="date">
+AUG 2024 – AUG 2025
+</div>
+
+<h3>
+PLC Automation Engineer
+</h3>
+
+<p>
+<b>
+Techsys Automation Pvt. Ltd. — Hyderabad
+</b>
+</p>
+
 <p>
 PLC automation, HMI/SCADA development, panel wiring, motor control
 wiring, FAT/SAT and I/O testing, industrial communication, drive
 configuration, commissioning and plant automation activities.
 </p>
+
 </div>
 
 </div>
+
 </div>
+
 </section>
 
 
 <!-- SKILLS -->
+
 <section id="skills">
+
 <div class="container">
 
 <div class="section-title">
-<div class="kicker">Technical Stack</div>
-<h2>Technical Skills</h2>
+
+<div class="kicker">
+Technical Stack
+</div>
+
+<h2>
+Technical Skills
+</h2>
+
 <p class="lead">
 Skills covering Siemens PCS 7, PLC, SCADA, HMI, industrial communication
 and automation engineering.
 </p>
+
 </div>
+
 
 <div class="skills">
 
@@ -481,84 +1037,167 @@ and automation engineering.
 </div>
 
 </div>
+
 </div>
+
 </section>
 
 
 <!-- EDUCATION -->
+
 <section id="education">
+
 <div class="container">
 
 <div class="section-title">
-<div class="kicker">Academic Background</div>
-<h2>Education</h2>
+
+<div class="kicker">
+Academic Background
 </div>
+
+<h2>
+Education
+</h2>
+
+</div>
+
 
 <div class="card">
 
 <table class="edu">
 
 <thead>
+
 <tr>
+
 <th>Qualification</th>
 <th>Institute</th>
 <th>Board / University</th>
 <th>Year</th>
+
 </tr>
+
 </thead>
+
 
 <tbody>
 
 <tr>
-<td>B.Tech (EEE)</td>
-<td>Christu Jyothi Institute of Technology and Science, Jangaon</td>
-<td>JNTUH - Hyderabad</td>
-<td>2023</td>
+
+<td>
+B.Tech (EEE)
+</td>
+
+<td>
+Christu Jyothi Institute of Technology and Science, Jangaon
+</td>
+
+<td>
+JNTUH - Hyderabad
+</td>
+
+<td>
+2023
+</td>
+
 </tr>
 
-<tr>
-<td>Diploma (EEE)</td>
-<td>Brilliant Institute of Engg & Tech, Abdullapurmet</td>
-<td>SBTE(T)</td>
-<td>2020</td>
-</tr>
 
 <tr>
-<td>SSC</td>
-<td>Shubhodaya Vidyanikethan High School, Cherial</td>
-<td>SSC</td>
-<td>2017</td>
+
+<td>
+Diploma (EEE)
+</td>
+
+<td>
+Brilliant Institute of Engg & Tech, Abdullapurmet
+</td>
+
+<td>
+SBTE(T)
+</td>
+
+<td>
+2020
+</td>
+
+</tr>
+
+
+<tr>
+
+<td>
+SSC
+</td>
+
+<td>
+Shubhodaya Vidyanikethan High School, Cherial
+</td>
+
+<td>
+SSC
+</td>
+
+<td>
+2017
+</td>
+
 </tr>
 
 </tbody>
+
 </table>
 
 </div>
+
 </div>
+
 </section>
 
 
 <!-- PROJECTS -->
+
 <section id="projects">
+
 <div class="container">
 
 <div class="section-title">
-<div class="kicker">Selected Work</div>
-<h2>Projects</h2>
+
+<div class="kicker">
+Selected Work
+</div>
+
+<h2>
+Projects
+</h2>
+
 <p class="lead">
 Professional and academic projects covering Siemens PCS 7, DCS, SCADA,
 PLC, HMI, industrial communication and plant automation.
 </p>
+
 </div>
+
 
 <div class="projects">
 
-<!-- PROJECT 1 -->
-<div class="card project">
-<div class="tag">DCS • Process Plant • MSPL</div>
-<h3>Iron Ore Beneficiation Plant Automation — MSPL, Sandur</h3>
 
-<h4 class="project-heading">Project Description</h4>
+<!-- PROJECT 1 -->
+
+<div class="card project">
+
+<div class="tag">
+DCS • Process Plant • MSPL
+</div>
+
+<h3>
+Iron Ore Beneficiation Plant Automation — MSPL, Sandur
+</h3>
+
+<h4 class="project-heading">
+Project Description
+</h4>
+
 <p>
 Developed and supported Siemens PCS 7 based DCS and SCADA automation
 for an Iron Ore Beneficiation Plant at MSPL, Sandur. The project involved
@@ -566,37 +1205,77 @@ DCS engineering, SCADA development, control logic development, system
 configuration, testing, commissioning and plant start-up support.
 </p>
 
-<h4 class="project-heading">Responsibilities</h4>
+<h4 class="project-heading">
+Responsibilities
+</h4>
+
 <ul class="project-list">
+
 <li>Developed SCADA screens based on P&amp;ID diagrams and client requirements.</li>
+
 <li>Developed CFC and basic control logics based on process, site and client requirements.</li>
+
 <li>Performed I/O checking, loop checking and field-level testing during pre-commissioning and commissioning.</li>
+
 <li>Installed and configured ES/OS servers and operator clients and brought systems online.</li>
+
 <li>Installed and configured Siemens PCS 7 software, licenses and required engineering software on new systems.</li>
+
 <li>Supported new system and workstation arrangements at site, including server and client setup.</li>
+
 <li>Performed SQL and required software installation and configuration activities.</li>
+
 <li>Designed and modified SCADA graphics according to P&amp;ID diagrams and client/site requirements.</li>
+
 <li>Developed and modified control logic according to process and commissioning requirements.</li>
+
 <li>Troubleshot DCS, SCADA, communication, software and system-related issues during commissioning.</li>
+
 <li>Supported the engineering and commissioning team during plant start-up and production activities.</li>
+
 <li>Provided support until the plant was successfully running and production was achieved.</li>
+
 <li>Worked with site, engineering and client teams to identify and resolve technical issues.</li>
+
 <li>Investigated new technical issues and learned required system/process details to support successful commissioning and plant operation.</li>
+
 </ul>
 
+
 <div class="tools">
-<span>Siemens PCS 7</span><span>DCS</span><span>CFC</span><span>WinCC SCADA</span>
-<span>ES / OS</span><span>SQL</span><span>I/O Checking</span><span>Loop Checking</span>
-<span>Commissioning</span><span>Plant Start-up</span>
+
+<span>Siemens PCS 7</span>
+<span>DCS</span>
+<span>CFC</span>
+<span>WinCC SCADA</span>
+<span>ES / OS</span>
+<span>SQL</span>
+<span>I/O Checking</span>
+<span>Loop Checking</span>
+<span>Commissioning</span>
+<span>Plant Start-up</span>
+
 </div>
+
 </div>
+
 
 <!-- PROJECT 2 -->
-<div class="card project">
-<div class="tag">DCS • SCADA Migration • JSW</div>
-<h3>Siemens PCS 7 SCADA Migration &amp; Plant Automation Modernization — JSW</h3>
 
-<h4 class="project-heading">Project Description</h4>
+<div class="card project">
+
+<div class="tag">
+DCS • SCADA Migration • JSW
+</div>
+
+<h3>
+Siemens PCS 7 SCADA Migration &amp; Plant Automation Modernization — JSW
+</h3>
+
+<h4 class="project-heading">
+Project Description
+</h4>
+
 <p>
 Worked on Siemens PCS 7 and WinCC SCADA migration and system
 modernization at JSW, Karnataka. The project involved upgrading the
@@ -605,43 +1284,89 @@ existing PCS 7 project to the new system environment while maintaining
 the running plant without disturbing production.
 </p>
 
-<h4 class="project-heading">Responsibilities</h4>
+<h4 class="project-heading">
+Responsibilities
+</h4>
+
 <ul class="project-list">
+
 <li>Worked on migration and modernization of the existing Siemens PCS 7 and WinCC SCADA system.</li>
+
 <li>Worked with the existing environment including WinCC Runtime V7.5 SP2 Update 18.</li>
+
 <li>Supported migration to the new WinCC Runtime V8.1 Update 5 environment.</li>
+
 <li>Took backup of the existing PCS 7 project before migration activities.</li>
+
 <li>Converted and migrated the existing PCS 7 project data to the new system environment.</li>
+
 <li>Identified and resolved SCADA migration issues after project conversion.</li>
+
 <li>Resolved issues related to SCADA objects and graphics not being displayed correctly.</li>
+
 <li>Troubleshot and resolved VB Script related issues in the SCADA system.</li>
+
 <li>Resolved SCADA start-button functionality issues.</li>
+
 <li>Troubleshot and resolved motor faceplate related issues.</li>
+
 <li>Removed old engineering, server and operator client systems and supported installation of new systems.</li>
+
 <li>Installed new HP server systems and new operator/client systems.</li>
+
 <li>Supported installation and replacement of monitors and other required system hardware.</li>
+
 <li>Installed and configured required PCS 7, WinCC Runtime and supporting software on new systems.</li>
+
 <li>Performed ES download and OS/client configuration activities.</li>
+
 <li>Brought new operator clients online and verified SCADA functionality.</li>
+
 <li>Troubleshot SCADA graphics, scripts, faceplates, operator controls and runtime-related issues.</li>
+
 <li>Supported migration activities in the running plant without disturbing plant operation or production.</li>
+
 <li>Responded to operator-reported issues, identified the cause and provided immediate solutions.</li>
+
 <li>Worked with site and client teams during migration, testing, commissioning and troubleshooting.</li>
+
 </ul>
 
+
 <div class="tools">
-<span>PCS 7</span><span>WinCC Runtime</span><span>SCADA Migration</span><span>ES / OS</span>
-<span>HP Server</span><span>Client Systems</span><span>VB Script</span><span>Faceplates</span>
-<span>SCADA</span><span>Commissioning</span>
+
+<span>PCS 7</span>
+<span>WinCC Runtime</span>
+<span>SCADA Migration</span>
+<span>ES / OS</span>
+<span>HP Server</span>
+<span>Client Systems</span>
+<span>VB Script</span>
+<span>Faceplates</span>
+<span>SCADA</span>
+<span>Commissioning</span>
+
 </div>
+
 </div>
+
 
 <!-- PROJECT 3 -->
-<div class="card project">
-<div class="tag">SCADA • Remote Telecommunication • HNSS</div>
-<h3>HNSS Irrigation Project — SCADA &amp; Remote Telecommunication</h3>
 
-<h4 class="project-heading">Project Description</h4>
+<div class="card project">
+
+<div class="tag">
+SCADA • Remote Telecommunication • HNSS
+</div>
+
+<h3>
+HNSS Irrigation Project — SCADA &amp; Remote Telecommunication
+</h3>
+
+<h4 class="project-heading">
+Project Description
+</h4>
+
 <p>
 Developed a SCADA-based remote monitoring system for 19 pump houses
 located at different field locations, enabling centralized monitoring
@@ -650,8 +1375,600 @@ used M2M communication to transfer PLC data from the pump houses to the
 central SCADA system.
 </p>
 
-<h4 class="project-heading">Responsibilities</h4>
+<h4 class="project-heading">
+Responsibilities
+</h4>
+
 <ul class="project-list">
+
 <li>Developed SCADA screens for centralized monitoring of 19 pump houses located at different field locations.</li>
+
 <li>Installed and configured Wi-Fi routers with M2M SIM cards at the pump houses for remote communication.</li>
-<li>Established communication between Siemens S7-1200 PLCs and the head-office 
+
+<li>Established communication between Siemens S7-1200 PLCs and the head-office SCADA system through the M2M communication network.</li>
+
+<li>Configured SCADA screens to display pump and motor status, running indications and equipment status.</li>
+
+<li>Configured SCADA visualization for valve positions and field equipment available at the pump houses.</li>
+
+<li>Developed process visualization for field parameters such as water pressure and flow.</li>
+
+<li>Configured and integrated field data from multiple pump houses into the central SCADA system.</li>
+
+<li>Supported server installation and SCADA configuration at the head office.</li>
+
+<li>Configured centralized monitoring so that data from all pump houses could be viewed on the main monitoring screen at the government office.</li>
+
+<li>Supported configuration and display of pump house information on the central monitoring screen.</li>
+
+<li>Performed communication testing between field PLC systems and the head-office SCADA system.</li>
+
+<li>Troubleshot M2M communication, router and SCADA communication-related issues during commissioning.</li>
+
+<li>Performed configuration and testing of field-to-head-office data transmission.</li>
+
+<li>Supported the team in resolving communication and SCADA-related issues during system commissioning.</li>
+
+<li>Verified field data and ensured required pump, motor, valve, pressure and flow information was available on the central SCADA system.</li>
+
+</ul>
+
+
+<div class="tools">
+
+<span>S7-1200</span>
+<span>SCADA</span>
+<span>M2M SIM</span>
+<span>Wi-Fi Router</span>
+<span>Remote Communication</span>
+<span>Server</span>
+<span>Central Monitoring</span>
+<span>Pump House</span>
+<span>Pressure</span>
+<span>Flow</span>
+
+</div>
+
+</div>
+
+
+<!-- PROJECT 4 -->
+
+<div class="card project">
+
+<div class="tag">
+PLC • HMI • SCADA • AAC Blocks
+</div>
+
+<h3>
+AAC Blocks Manufacturing Plant Automation — Tamil Nadu
+</h3>
+
+<h4 class="project-heading">
+Project Description
+</h4>
+
+<p>
+Worked on PLC, HMI, SCADA and electrical control-panel automation for
+an AAC blocks manufacturing plant in Tamil Nadu. The work involved
+PLC/HMI programming, panel wiring, motor control wiring, drive
+configuration, batching section development, load-cell checking,
+testing, trial runs and plant automation activities based on site and
+client requirements.
+</p>
+
+<h4 class="project-heading">
+Responsibilities
+</h4>
+
+<ul class="project-list">
+
+<li>Developed and modified PLC programs based on site and client requirements using Siemens TIA Portal.</li>
+
+<li>Developed and modified HMI screens according to plant operation and site requirements.</li>
+
+<li>Performed electrical control-panel wiring and control wiring at site.</li>
+
+<li>Performed DOL motor control wiring and testing.</li>
+
+<li>Performed forward/reverse (DOL/RDOL) motor control wiring and testing.</li>
+
+<li>Performed star-delta motor control wiring and testing.</li>
+
+<li>Configured and tested drive parameters for drive-controlled motors.</li>
+
+<li>Worked on crane-related motor control and drive applications.</li>
+
+<li>Worked on transfer-car automation and motor control applications.</li>
+
+<li>Performed multiple DOL motor and drive motor wiring across different plant sections.</li>
+
+<li>Worked on SCADA and batching-section development.</li>
+
+<li>Supported report generation for the plant automation system.</li>
+
+<li>Performed load-cell checking and supported related testing activities.</li>
+
+<li>Made programming changes according to client and site requirements.</li>
+
+<li>Performed software testing, motor testing and trial runs after wiring and programming activities.</li>
+
+<li>Completed automation activities section by section across the plant.</li>
+
+<li>Supported testing and commissioning of completed plant sections.</li>
+
+<li>Worked with the site team to identify and resolve automation and control-related issues.</li>
+
+</ul>
+
+
+<div class="tools">
+
+<span>TIA Portal</span>
+<span>PLC</span>
+<span>HMI</span>
+<span>SCADA</span>
+<span>DOL</span>
+<span>RDOL</span>
+<span>Star Delta</span>
+<span>Drives</span>
+<span>Panel Wiring</span>
+<span>Load Cell</span>
+<span>Crane</span>
+<span>Transfer Car</span>
+<span>Commissioning</span>
+
+</div>
+
+</div>
+
+
+<!-- ACADEMIC PROJECT 1 -->
+
+<div class="card project">
+
+<div class="tag">
+Academic • IoT
+</div>
+
+<h3>
+Azure IoT Central – Honeybee Farm Monitoring
+</h3>
+
+<h4 class="project-heading">
+Project Description
+</h4>
+
+<p>
+Developed an IoT-based monitoring project for a honeybee farm using
+Azure IoT Central. The project focused on remote monitoring of farm
+conditions, centralized data visualization and real-time observation
+of collected sensor information.
+</p>
+
+<h4 class="project-heading">
+Project Work
+</h4>
+
+<ul class="project-list">
+
+<li>Worked on the concept of remote monitoring of honeybee farm conditions.</li>
+
+<li>Used Azure IoT Central for centralized monitoring and visualization.</li>
+
+<li>Worked on real-time observation of collected field data.</li>
+
+<li>Worked on monitoring and alert-based observation of farm conditions.</li>
+
+</ul>
+
+
+<div class="tools">
+
+<span>Azure IoT Central</span>
+<span>IoT</span>
+<span>Cloud</span>
+<span>Monitoring</span>
+<span>Real-Time Data</span>
+
+</div>
+
+</div>
+
+
+<!-- ACADEMIC PROJECT 2 -->
+
+<div class="card project">
+
+<div class="tag">
+Academic • Power Systems
+</div>
+
+<h3>
+132/220 kV Substation Overview
+</h3>
+
+<h4 class="project-heading">
+Project Description
+</h4>
+
+<p>
+Academic mini project covering the basic operation and major
+components of a 132/220 kV electrical substation and the flow of
+electrical power through the substation system.
+</p>
+
+<h4 class="project-heading">
+Project Work
+</h4>
+
+<ul class="project-list">
+
+<li>Studied the basic operation of a 132/220 kV electrical substation.</li>
+
+<li>Studied major substation components and their functions.</li>
+
+<li>Covered transformers, busbars, circuit breakers and isolators.</li>
+
+<li>Covered CT and PT arrangements used for measurement and protection.</li>
+
+<li>Studied basic protection and metering arrangements.</li>
+
+<li>Prepared an overview of the substation system and power flow.</li>
+
+</ul>
+
+
+<div class="tools">
+
+<span>Power Systems</span>
+<span>132 kV</span>
+<span>220 kV</span>
+<span>Substation</span>
+<span>Protection</span>
+<span>Metering</span>
+
+</div>
+
+</div>
+
+
+<!-- TRAINING PROJECT -->
+
+<div class="card project">
+
+<div class="tag">
+Training • Embedded Systems
+</div>
+
+<h3>
+Multi-Purpose E-Card System Using RFID
+</h3>
+
+<h4 class="project-heading">
+Project Description
+</h4>
+
+<p>
+Developed a multi-purpose electronic card system using RFID technology
+as part of embedded systems training at Vector India. The project
+focused on RFID-based identification and embedded system integration.
+</p>
+
+<h4 class="project-heading">
+Project Work
+</h4>
+
+<ul class="project-list">
+
+<li>Worked with RFID-based identification technology.</li>
+
+<li>Developed an embedded-system based multi-purpose electronic card concept.</li>
+
+<li>Worked on hardware and software integration for the project.</li>
+
+<li>Performed testing and troubleshooting during project development.</li>
+
+</ul>
+
+
+<div class="tools">
+
+<span>Embedded Systems</span>
+<span>RFID</span>
+<span>Microcontroller</span>
+<span>Programming</span>
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- TRAINING -->
+
+<section id="training">
+
+<div class="container">
+
+<div class="section-title">
+
+<div class="kicker">
+Training &amp; Certifications
+</div>
+
+<h2>
+Additional Learning
+</h2>
+
+</div>
+
+
+<div class="grid2">
+
+
+<div class="card">
+
+<h3>
+Embedded Systems Training
+</h3>
+
+<p>
+Vector India — 8 months course on advanced embedded systems and
+hands-on projects.
+</p>
+
+<ul>
+
+<li>
+Multi-purpose E-Card system using RFID technology
+</li>
+
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+Certifications
+</h3>
+
+<ul>
+
+<li>
+Embedded Systems Certified — Vector India
+</li>
+
+<li>
+TATA Technologies Certified
+</li>
+
+<li>
+Fundamentals Azure Microsoft Certified
+</li>
+
+<li>
+FRT Certified
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- VIDEO -->
+
+<section id="video">
+
+<div class="container">
+
+<div class="section-title">
+
+<div class="kicker">
+Project Demonstration
+</div>
+
+<h2 class="video-title">
+
+<i class="fa-solid fa-circle-play"></i>
+
+Automation Video
+
+</h2>
+
+<p class="lead">
+Project demonstration and SCADA automation video.
+</p>
+
+</div>
+
+
+<div class="video">
+
+<!-- Keep SCADA Animation.mp4 beside index.html -->
+
+<video controls preload="metadata">
+
+<source src="SCADA Animation.mp4" type="video/mp4">
+
+Your browser does not support the video tag.
+
+</video>
+
+
+<div class="video-note">
+
+SCADA / automation project demonstration.
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<div class="container">
+
+<div class="section-title">
+
+<div class="kicker">
+Let's Connect
+</div>
+
+<h2>
+Contact
+</h2>
+
+</div>
+
+
+<div class="contact card">
+
+
+<div>
+
+<div class="contact-item">
+
+<small>
+
+<i class="fa-solid fa-envelope contact-icon"></i>
+
+Email
+
+</small>
+
+<a href="mailto:sampath.mergoju@gmail.com">
+
+sampath.mergoju@gmail.com
+
+</a>
+
+</div>
+
+
+<div class="contact-item">
+
+<small>
+
+<i class="fa-solid fa-phone contact-icon"></i>
+
+Phone
+
+</small>
+
+<a href="tel:+918985089064">
+
++91 89850 89064
+
+</a>
+
+</div>
+
+</div>
+
+
+<div>
+
+<div class="contact-item">
+
+<small>
+
+<i class="fa-brands fa-linkedin contact-icon"></i>
+
+LinkedIn
+
+</small>
+
+<a href="https://www.linkedin.com/in/mergoju-sampathkumar-58ba64277/"
+target="_blank">
+
+LinkedIn Profile
+
+</a>
+
+</div>
+
+
+<div class="contact-item">
+
+<small>
+
+<i class="fa-solid fa-file-pdf contact-icon"></i>
+
+Resume
+
+</small>
+
+<a href="resume.pdf" download>
+
+Download Resume PDF
+
+</a>
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="container footer">
+
+<span>
+© 2026 Mergoju Sampathkumar
+</span>
+
+<span>
+PCS 7 • DCS • Industrial Automation
+</span>
+
+</div>
+
+</footer>
+
+
+<script>
+
+document.querySelectorAll('nav a').forEach(a =>
+
+ a.addEventListener('click',() =>
+
+  document.querySelector('nav').classList.remove('show')
+
+ )
+
+);
+
+</script>
+
+</body>
+</html>
